@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.bg-color{
+    background-color: tomato;
+    height: 100vh;
+    padding: 150px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    color: tomato;
+}
+#email{
+   border: 1px solid tomato;
+}
+#password{
+    border: 1px solid tomato;
+}
+.form-data{
+    justify-content: center;
+    padding: 15px;
+}
+.head{
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: tomato;
+    border-color:tomato;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+}
+
+#error-msg {
+    margin-top: 20px;
+}
